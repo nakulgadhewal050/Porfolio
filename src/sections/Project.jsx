@@ -1,12 +1,12 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { motion, useScroll, useMotionValueEvent } from "framer-motion";
 
-import img1 from "../assets/Portfolio website/img1.png";
-import img2 from "../assets/Portfolio website/img2.png";
-import img3 from "../assets/Portfolio website/img3.png";
-import photo1 from "../assets/Portfolio website/photo1.png";
-import photo2 from "../assets/Portfolio website/photo2.png";
-import photo3 from "../assets/Portfolio website/photo3.png";
+import img1 from "../assets/Portfoliowebsite/img1.png";
+import img2 from "../assets/Portfoliowebsite/img2.png";
+import img3 from "../assets/Portfoliowebsite/img3.png";
+import photo1 from "../assets/Portfoliowebsite/photo1.png";
+import photo2 from "../assets/Portfoliowebsite/photo2.png";
+import photo3 from "../assets/Portfoliowebsite/photo3.png";
 
 /* ------------------ Mobile Hook ------------------ */
 const useIsMobile = (query = "(max-width: 768px)") => {
