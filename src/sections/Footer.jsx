@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion'
 import { FiGithub, FiLinkedin, FiInstagram } from 'react-icons/fi'
+import ParticalsBackground from '../components/ParticalsBackground'
 
 const socials = [
   { Icon: FiGithub, label: "GitHub", url: 'https://github.com/nakulgadhewal050' },
@@ -21,6 +22,7 @@ const glowVariants = {
 function Footer() {
   return (
     <footer className='relative bg-black overflow-hidden'>
+      <ParticalsBackground/>
       <div className='pointer-events-none absolute inset-0 bg-[radial-gradient(55%_60%_at_70%_35%,rgba(13,88,202,0.25),transparent_70%)]'/>
       <div className='pointer-events-none absolute inset-0 bg-[radial-gradient(50%_55%_at_30%_70%,rgba(16,185,129,0.35),transparent_70%)]'/>
       

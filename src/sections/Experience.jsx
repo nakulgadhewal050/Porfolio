@@ -4,22 +4,19 @@ import ParticalsBackground from '../components/ParticalsBackground';
 
 const experiences = [
   {
-    role: "Software Engineer",
-    company: "Tech Solutions Inc.",
-    duration: "Jan 2020 - Present",
-    description: "Developed and maintained web applications using React and Node.js. Collaborated with cross-functional teams to deliver high-quality software solutions."
+    role: "Full Stack Web Developer",
+    company: "Amdox Technologies",
+    duration: "Nov 2025 to Feb 2026",
+    description: "Developed and maintained web applications using React and Node.js. Collaborated with cross-functional teams to design scalable solutions and improve user experience."
   },
   {
     role: "Frontend Developer",
-    company: "Web Creatives LLC",
-    duration: "Jun 2018 - Dec 2019",
-    description: "Implemented responsive UI designs and optimized web performance. Worked closely with designers to enhance user experience."
+    description: "Implemented responsive UI components and optimized application performance. Worked closely with designers to ensure pixel-perfect designs and seamless user interactions."
   },
+
   {
-    role: "Intern Developer",
-    company: "Startup Hub",
-    duration: "Jan 2018 - May 2018",
-    description: "Assisted in developing features for the company’s main product. Gained hands-on experience in full-stack development and agile methodologies."
+    role: "Backend Developer",
+    description: "Built and maintained server-side logic, ensuring high performance and responsiveness. Integrated third-party APIs and managed database operations."
   }
 ];
 

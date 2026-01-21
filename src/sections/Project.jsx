@@ -1,11 +1,11 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { motion, useScroll, useMotionValueEvent } from "framer-motion";
 
-import img1 from "../assets/Portfolio website/img1.JPG";
-import img2 from "../assets/Portfolio website/img2.JPG";
-import img3 from "../assets/Portfolio website/img3.JPG";
-import photo1 from "../assets/Portfolio website/photo1.JPG";
-import photo2 from "../assets/Portfolio website/photo2.PNG";
+import img1 from "../assets/Portfolio website/img1.png";
+import img2 from "../assets/Portfolio website/img2.png";
+import img3 from "../assets/Portfolio website/img3.png";
+import photo1 from "../assets/Portfolio website/photo1.png";
+import photo2 from "../assets/Portfolio website/photo2.png";
 import photo3 from "../assets/Portfolio website/photo3.png";
 
 /* ------------------ Mobile Hook ------------------ */
@@ -31,29 +31,29 @@ function Project() {
   const projects = useMemo(
     () => [
       {
-        title: "Travel Planner",
+        title: "Job-Seeker Platform",
+        description: "Job search and application management system",
+        link: "https://job-listing-portal-frontend-9tvf.onrender.com",
+        bgColor: "#8120EA",
+        image: isMobile ? photo3 : img3,
+        tags: ["Full Stack", "Auth", "Database"],
+      },
+      {
+        title: "Book Your Show",
         description: "Comprehensive travel planning app with itinerary management",
-        link: "https://github.com/nakulgadhewal050/Travel-Planner.git",
-        bgColor: "#0d4d3d",
+        link: "https://github.com/nakulgadhewal050/Ticket_booking-application.git",
+        bgColor: "#02163A",
         image: isMobile ? photo1 : img1,
         tags: ["React", "Node.js", "API"],
       },
       {
         title: "Smart Food Delivery",
         description: "Food delivery platform with real-time tracking",
-        link: "https://gamilyapp.com/",
-        bgColor: "#3884d3",
+        link: "https://github.com/nakulgadhewal050/Vingo_Food-Delivery.git",
+        bgColor: "#FF5B3D",
         image: isMobile ? photo2 : img2,
         tags: ["React", "Firebase", "Maps"],
-      },
-      {
-        title: "Job-Seeker Platform",
-        description: "Job search and application management system",
-        link: "https://www.eathungrytiger.com/",
-        bgColor: "#dc9317",
-        image: isMobile ? photo3 : img3,
-        tags: ["Full Stack", "Auth", "Database"],
-      },
+      }  
     ],
     [isMobile]
   );
