@@ -2,7 +2,7 @@ import React, { useEffect, useMemo, useState } from 'react'
 import ParticalsBackground from '../components/ParticalsBackground'
 import { motion } from 'framer-motion'
 import { FiGithub, FiInstagram, FiLinkedin, FiDownload, FiArrowRight } from 'react-icons/fi'
-import avator from '../assets/Portfolio website/avator.png'
+import avator from '../assets/Portfoliowebsite/avator.png'
 
 const socials = [
   { Icon: FiGithub, label: "GitHub", url: 'https://github.com/nakulgadhewal050', color: '#333' },

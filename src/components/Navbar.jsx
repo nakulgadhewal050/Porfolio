@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import OverlayMenu from './OverlayMenu'
-import logo from '../assets/Portfolio website/logo.png'
+import logo from '../assets/Portfoliowebsite/logo.png'
 import { FiMenu } from "react-icons/fi";
 import { motion } from 'framer-motion';
 

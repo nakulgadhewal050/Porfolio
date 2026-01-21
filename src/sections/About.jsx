@@ -1,6 +1,6 @@
 
 import { motion } from 'framer-motion'
-import nakul from '../assets/Portfolio website/nakul.jpeg'
+import nakul from '../assets/Portfoliowebsite/nakul.jpeg'
 import ParticalsBackground from '../components/ParticalsBackground'
 import { FiCode, FiLayers, FiZap, FiAward } from 'react-icons/fi'
 
