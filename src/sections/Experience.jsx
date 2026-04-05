@@ -11,6 +11,8 @@ const experiences = [
   },
   {
     role: "Frontend Developer",
+    company: "Graphura India Private Limited",
+     duration: "Mar 2026 to present",
     description: "Implemented responsive UI components and optimized application performance. Worked closely with designers to ensure pixel-perfect designs and seamless user interactions."
   },
 

@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react'
 import {  FaReact } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
-import { SiNextdotjs, SiTypescript, SiTailwindcss, SiFastapi, SiDocker, SiMongodb, SiVite } from "react-icons/si";
+import { SiNextdotjs, SiTypescript, SiTailwindcss, SiKubernetes, SiDocker, SiMongodb, SiVite } from "react-icons/si";
 import { motion, useMotionValue } from 'framer-motion';
 import ParticalsBackground from '../components/ParticalsBackground';
 
@@ -13,7 +13,7 @@ function Skills() {
     { icon: <SiNextdotjs />, name: "Next.js", color: "#FFFFFF" },
     { icon: <SiTypescript />, name: "TypeScript", color: "#3178C6" },
     { icon: <SiTailwindcss />, name: "Tailwind CSS", color: "#06B6D4" },
-    { icon: <SiFastapi />, name: "FastAPI", color: "#009688" },
+    { icon: <SiKubernetes />, name: "Kubernetes", color: "#326CE5" },
     { icon: <SiDocker />, name: "Docker", color: "#2496ED" },
     { icon: <SiVite />, name: "Vite", color: "#646CFF" },
     { icon: <SiMongodb />, name: "MongoDB", color: "#47A248" },

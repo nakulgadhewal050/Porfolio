@@ -4,6 +4,7 @@ import { motion, useScroll, useMotionValueEvent } from "framer-motion";
 import img1 from "../assets/Portfoliowebsite/img1.png";
 import img2 from "../assets/Portfoliowebsite/img2.png";
 import img3 from "../assets/Portfoliowebsite/img3.png";
+import img4 from "../assets/Portfoliowebsite/img4.png";
 import photo1 from "../assets/Portfoliowebsite/photo1.png";
 import photo2 from "../assets/Portfoliowebsite/photo2.png";
 import photo3 from "../assets/Portfoliowebsite/photo3.png";
@@ -30,6 +31,15 @@ function Project() {
 
   const projects = useMemo(
     () => [
+      
+      {
+        title: "SnapKart",
+        description: "E-commerce platform with real-time inventory and payment integration",
+        link: "https://www.snapkart.tech",
+        bgColor: "#00903B",
+        image: isMobile ? img4 : img4,
+        tags: ["Next.js", "NextAuth", "Stripe","Socket.io"],
+      },
       {
         title: "Job-Seeker Platform",
         description: "Job search and application management system",
