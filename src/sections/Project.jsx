@@ -51,7 +51,7 @@ function Project() {
       {
         title: "Book Your Show",
         description: "Comprehensive travel planning app with itinerary management",
-        link: "https://github.com/nakulgadhewal050/Ticket_booking-application.git",
+        link: "https://ticket-booking-application-nine.vercel.app",
         bgColor: "#02163A",
         image: isMobile ? photo1 : img1,
         tags: ["React", "Node.js", "API"],
