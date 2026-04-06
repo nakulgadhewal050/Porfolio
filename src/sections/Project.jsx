@@ -70,14 +70,15 @@ function Project() {
 
   const { scrollYProgress } = useScroll({
     target: sceneRef,
-    offset: ["start start", "end start"],
+    offset: ["start start", "end end"],
   });
 
+  const thresholds = projects.map((_, i) => (i + 1) / projects.length);
   const [activeIndex, setActiveIndex] = useState(0);
 
   useMotionValueEvent(scrollYProgress, "change", (v) => {
-    const idx = Math.min(projects.length - 1, Math.floor(v * projects.length));
-    setActiveIndex((prev) => (prev === idx ? prev : idx));
+    const idx = thresholds.findIndex((t) => v <= t);
+    setActiveIndex(idx === -1 ? projects.length - 1 : idx);
   });
 
   const activeProject = projects[activeIndex];
@@ -127,13 +128,11 @@ function Project() {
 
         {/* Image */}
         <motion.div
-          key={activeProject.title}
           className="relative w-full max-w-5xl h-[60vh] rounded-xl overflow-hidden shadow-2xl"
           initial={{ scale: 0.9, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
         >
           <img
-            key={activeProject.image}
             src={activeProject.image}
             alt={activeProject.title}
             className="w-full h-full object-cover"
