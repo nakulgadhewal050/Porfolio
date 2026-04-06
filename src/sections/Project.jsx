@@ -43,7 +43,7 @@ function Project() {
       {
         title: "Job-Seeker Platform",
         description: "Job search and application management system",
-        link: "https://job-listing-portal-frontend-9tvf.onrender.com",
+        link: "https://job-listing-portal-steel.vercel.app",
         bgColor: "#8120EA",
         image: isMobile ? photo3 : img3,
         tags: ["Full Stack", "Auth", "Database"],
