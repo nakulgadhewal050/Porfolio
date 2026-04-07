@@ -59,7 +59,7 @@ function Project() {
       {
         title: "Smart Food Delivery",
         description: "Food delivery platform with real-time tracking",
-        link: "https://github.com/nakulgadhewal050/Vingo_Food-Delivery.git",
+        link: "https://vingo-food-delivery-sand.vercel.app",
         bgColor: "#FF5B3D",
         image: isMobile ? photo2 : img2,
         tags: ["React", "Firebase", "Maps"],
